@@ -1,9 +1,53 @@
-* {
+* /*초기화*/{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
-    background-color: yellow;
+a, a:link, a:visited {
+    color:inherit;
+    text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    color: black;
+    /*절대*/top: 0px;
+    /*상대*/width: 100%;
+    /**/padding: 1rem;
+    z-index: 1;
+}
+
+header .container {
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul li {
+    padding: 10px
+}
+
+header button {
+    background: transparent;
+    border: 0;
+    cursor: pointerr;
+}
+header h1 button {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header 
