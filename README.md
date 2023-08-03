@@ -11,5 +11,28 @@
         -Live Server
 
 
+       ## TO DO
+              - [x] 헤더
+              - [ ] 메인
+              - [ ] 섹션
+                - [ ] About Me
+                - [ ] What I Do
+                - [ ] Background
+                - [ ] PortFolio
+                - [ ] Contact With Me
+
         ## Ref.
+
+       - [코딩 자율학습 HTML + CSS + 자바스크립트]
+       - [Font Awesome] (http://fontawesome.com)
+
+
+
+
+
+
+
+
+
+
         .gitignore
